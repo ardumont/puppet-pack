@@ -1,7 +1,7 @@
-;; User pack init file
-;;
-;; User this file to initiate the pack configuration.
-;; See README for more information.
+(install-packs '(puppet-mode))
+
+;; puppet-mode for the .pp file
+(add-to-list 'auto-mode-alist '("\.pp$" . puppet-mode))
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
