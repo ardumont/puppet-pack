@@ -8,5 +8,5 @@ Puppet mode setup
 in your .emacs-live.el, add this:
 
 ```el
-(live-add-packs '(puppet-pack))
+(live-add-packs '("/path/to/puppet-pack"))
 ```
