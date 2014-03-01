@@ -3,5 +3,3 @@
 ;; puppet-mode for the .pp file
 (add-to-list 'auto-mode-alist '("\.pp$" . puppet-mode))
 
-;; Load bindings config
-(live-load-config-file "bindings.el")
