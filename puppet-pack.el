@@ -4,6 +4,7 @@
 
 ;;; Code:
 
+(require 'install-packages-pack)
 (install-packs '(puppet-mode
                  smartscan))
 
@@ -13,4 +14,5 @@
 (require 'smartscan)
 (add-hook 'puppet-mode-hook (lambda () (smartscan-mode)))
 
+(provide 'puppet-pack)
 ;;; puppet-pack.el ends here
