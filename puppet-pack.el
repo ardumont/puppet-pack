@@ -5,8 +5,8 @@
 ;;; Code:
 
 (require 'install-packages-pack)
-(install-packs '(puppet-mode
-                 smartscan))
+(install-packages-pack/install-packs '(puppet-mode
+                                       smartscan))
 
 (require 'puppet-mode)
 ;; puppet-mode for the .pp file
